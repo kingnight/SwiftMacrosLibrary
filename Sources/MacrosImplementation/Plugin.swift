@@ -31,6 +31,7 @@ struct SwiftMacrosLibraryPlugin: CompilerPlugin {
         ObservablePropertyMacro.self,
         OptionSetMacro.self,
         PeerValueWithSuffixNameMacro.self,
+        Singleton.self,
         StringifyMacro.self,
         URLMacro.self,
         WarningMacro.self,

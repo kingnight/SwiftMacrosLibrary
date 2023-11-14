@@ -91,4 +91,17 @@ func runMemberMacrosPlayground() {
 
   let password = Password("squeamish ossifrage")
   print("password: description=\(password) hashValue=\(password.hashValue)")
+    
+}
+
+
+@Singleton
+class A {
+    
+    let name = "A"
+}
+
+@Singleton
+public class B {
+    
 }

@@ -73,3 +73,7 @@ extension NewTypeProtocol where Self: Decodable, RawValue: Decodable {
 extension NewTypeProtocol where Self: CustomStringConvertible, RawValue: CustomStringConvertible {
   public var description: String { rawValue.description }
 }
+
+//MARK: - Singleton
+@attached(member, names: named(init), named(shared))
+public macro Singleton() = #externalMacro(module: "MacrosImplementation", type: "Singleton")
