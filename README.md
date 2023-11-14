@@ -1,6 +1,5 @@
-# 
-
-<img src="https://github.com/kingnight/SwiftMacrosLibrary/blob/main/logo.png" alt="logo" style="zoom: 25%;" />
+<img align="left" width="256" height="256" src="https://github.com/kingnight/SwiftMacrosLibrary/blob/main/logo.png">
+</br></br>
 
 # About SwiftMacrosLibrary
 
