@@ -28,7 +28,7 @@ let package = Package(
     name: "YOUR_PROJECT_NAME",
     targets: [],
     dependencies: [
-        .package(url: "https://github.com/kingnight/SwiftMacrosLibrary.git", from: "0.1.0")
+        .package(url: "https://github.com/kingnight/SwiftMacrosLibrary.git", from: "0.2.0")
     ]
 )
 ```
